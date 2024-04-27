@@ -88,7 +88,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="text-center mt-10">
-        <p className=" text-grey-300">
+        <p className=" text-grey-300 text-xs">
           {copyright} 2024 ProdevelopersClub All Rights Reserved.
         </p>
       </div>

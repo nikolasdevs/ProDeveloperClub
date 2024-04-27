@@ -4,10 +4,10 @@ export default function Hero() {
   return (
     <div className=" flex md:flex-row flex-col items-center gap-8 md:justify-between w-full mt-16">
       <div className="md:w-1/2 w-full flex flex-col gap-8 md:gap-4 items-start text-start">
-        <div className="w-full text-5xl lg:text-6xl leading-tight font-bold">
-          <p>
+        <div className="w-full text-5xl lg:text-6xl font-bold ">
+          <p className="leading-tight">
             Unleash your Coding Potential with{" "}
-            <span className=" text-accent text-4xl lg:text-6xl">ProDeveloperClub.</span>
+            <span className=" text-accent lg:text-6xl">ProDeveloperClub.</span>
           </p>
         </div>
         <div className="md:hidden block">
