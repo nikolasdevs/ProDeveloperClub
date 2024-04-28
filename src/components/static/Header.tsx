@@ -1,9 +1,13 @@
 import { Link } from "react-router-dom";
-
 import logo from "../../assets/pdc_logo.png";
+import { useState } from "react";
 import MenuBarsIcon from "@heroicons/react/24/outline/Bars3Icon";
 
 const Header = () => {
+   const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
   return (
     <div className="flex justify-between items-center md:h-28 w-full">
       <div className="w-2/6">
