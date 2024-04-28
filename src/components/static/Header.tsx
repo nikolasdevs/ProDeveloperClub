@@ -46,6 +46,7 @@ const Header = () => {
               <button className="hover:text-white active:text-white border-white border py-4 px-8 rounded-xl">
                 Join us
               </button>
+              
             </Link>
           </div>
         </div>
