@@ -5,7 +5,6 @@ import { useState } from "react";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
-
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -19,7 +18,7 @@ const Header = () => {
       </div>
       <div className="flex items-center w-5/6 justify-end">
         <div className="flex items-center gap-10 font-semibold text-grey-300">
-          <nav className="lg:block hidden">
+          <nav className="md:block hidden">
             <ul className="flex gap-10">
               <li className="hover:text-white active:text-white">
                 <Link to="/home">Home</Link>
@@ -35,7 +34,7 @@ const Header = () => {
               </li>
             </ul>
           </nav>
-          <div className="items-center gap-4 lg:flex hidden w-full ">
+          <div className="items-center gap-4 md:flex hidden w-full ">
             <Link
               to="/login"
               className="text-accent hover:text-white active:text-white"
@@ -43,14 +42,14 @@ const Header = () => {
               Login
             </Link>
             <Link to="/joinUs" className=" ">
-              <button className="hover:text-white active:text-white border-white border py-4 px-8 rounded-xl">
+              <button className="hover:text-white active:text-white border-white border md:py-2 md:px-4 rounded-xl">
                 Join us
               </button>
             </Link>
           </div>
         </div>
 
-        <div className="h-10 w-10 block lg:hidden">
+        <div className="h-10 w-10 block md:hidden">
           <MenuBarsIcon onClick={toggleMenu} className="cursor-pointer" />
           {isOpen && (
             <div className="absolute top-16 h-96 w-48 flex flex-col gap-8 items-center pt-12 right-0 bg-black text-grey-300 font-semibold rounded-xl p-4 animate-slideIn opacity-90">
