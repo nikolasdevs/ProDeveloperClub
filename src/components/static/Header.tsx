@@ -35,7 +35,7 @@ const Header = () => {
               </li>
             </ul>
           </nav>
-          <div className="items-center gap-4 md:flex hidden w-full ">
+          <div className="items-center gap-4 lg:flex hidden w-full ">
             <Link
               to="/login"
               className="text-accent hover:text-white active:text-white"

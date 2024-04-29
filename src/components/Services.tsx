@@ -8,7 +8,7 @@ interface CardProps {
 
 export default function Services(props: CardProps) {
   return (
-    <div className="md:h-80 p-4 md:px-10 md:py-6 flex flex-col items-start justify-center text-start gap-4 md:w-2/5 bg-grey-600 rounded-xl">
+    <div className="lg:h-80 p-4 lg:px-10 lg:py-6 flex flex-col items-start justify-center text-start gap-4 lg:w-2/5 bg-grey-600 rounded-xl">
       <img src={props.image} alt="service picture" />
       <h4 className="text-2xl font-bold"> {props.title}</h4>
       <div className="flex w-full items-end justify-between gap-2">
