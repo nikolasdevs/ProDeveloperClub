@@ -12,7 +12,7 @@ function CardData() {
           <p>We Provides best Feature for customers</p>
         </div>
       </div>
-      <div className="flex md:flex-row flex-col gap-8 w-full md:flex-wrap items-start justify-center mt-16">
+      <div className="flex lg:flex-row flex-col gap-8 w-full md:flex-wrap items-start justify-center mt-16">
         <Services
           title="Clean Code"
           description="Unlock the Power of Precision, Delve into the Art of Crafting Clean Code for Optimal Efficiency and Seamless Development Experiences on Our Code Website."
