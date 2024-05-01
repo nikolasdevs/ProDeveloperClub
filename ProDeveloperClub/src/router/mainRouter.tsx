@@ -4,6 +4,8 @@ import Home from "../pages/Home";
 import Challenges from "../pages/Challenges";
 import Blog from "../pages/Blog";
 import GoPro from "../pages/GoPro";
+import Login from "../pages/Login";
+import Register from "../pages/Register";
 
 export const mainRouter = createBrowserRouter([
   {
@@ -25,5 +27,13 @@ export const mainRouter = createBrowserRouter([
   {
     path: "/goPro",
     element: <GoPro />,
+  },
+  {
+    path: "/login",
+    element: <Login />,
+  },
+  {
+    path: "/register",
+    element: <Register />,
   },
 ]);

@@ -41,7 +41,7 @@ const Header = () => {
             >
               Login
             </Link>
-            <Link to="/joinUs" className=" ">
+            <Link to="/register" className=" ">
               <button className="hover:text-white active:text-white border-white border md:py-2 md:px-4 rounded-xl">
                 Join us
               </button>

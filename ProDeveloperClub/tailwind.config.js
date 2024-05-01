@@ -3,6 +3,15 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      keyframes: {
+        slideIn: {
+          "0%": { right: "-30%", opacity: 0 },
+          "100%": { right: 0, opacity: 1 },
+        },
+      },
+      animation: {
+        slideIn: "slideIn .5s ease-in-out",
+      },
       colors: {
         transparent: "transparent",
         current: "currentColor",
